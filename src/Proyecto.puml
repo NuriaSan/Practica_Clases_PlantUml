@@ -1,11 +1,7 @@
 @startuml
 left to right direction
-actor "Cliente" as cl
-usecase "Confirmar pedido" as cop
-usecase "Cancelar pedido" as cap
-usecase "Devolver cambio" as dc
-    cl -- cop
-    cl -- cap
-    dc .. cop : <<include>>
-    dc .. cap : <<include>>
+usecase "Acceder" as acc
+usecase "Registrarse" as reg
+    acc <.. reg : <<extend>>
+
 @enduml
