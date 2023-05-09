@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ecac339-6b7d-4449-84e5-4c23adf8eb2b" name="Changes" comment="Elementos del diagrama. Generalización">
+    <list default="true" id="6ecac339-6b7d-4449-84e5-4c23adf8eb2b" name="Changes" comment="Elementos del diagrama. Generalización con actores">
       <change beforePath="$PROJECT_DIR$/src/Proyecto.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683616693594</updated>
-      <workItem from="1683616697432" duration="3953000" />
+      <workItem from="1683616697432" duration="4521000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio del proyecto">
       <created>1683617497282</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683620550948</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Elementos del diagrama. Generalización con actores">
+      <created>1683620850778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683620850778</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +153,7 @@
     <MESSAGE value="Elementos del diagrama. Inclusión" />
     <MESSAGE value="Elementos del diagrama. Extensión" />
     <MESSAGE value="Elementos del diagrama. Generalización" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elementos del diagrama. Generalización" />
+    <MESSAGE value="Elementos del diagrama. Generalización con actores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elementos del diagrama. Generalización con actores" />
   </component>
 </project>

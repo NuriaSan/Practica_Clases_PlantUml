@@ -1,8 +1,15 @@
 @startuml
 left to right direction
-usecase "Reservar vuelo" as rv
-usecase "Elegir asientos" as ea
-    "Cliente VIP" -- ea
-    "Cliente" -- rv
+usecase "Meter dinero" as md
+usecase "Pedir azucar" as pa
+usecase "Pedir producto" as pp
+usecase "Cancelar" as c
+usecase "Devolver dinero" as dd
+    Cliente --md
+    Cliente --pa
+    Cliente --pp
+    Cliente --c
+    dd <.. pp : <<include>>
+    dd <.. c : <<include>>
 
 @enduml
