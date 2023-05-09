@@ -1,8 +1,8 @@
 @startuml
-usecase "Pagar" as p
-usecase "Pagar con tarjeta" as pt
-usecase "Pagar en efectivo" as pe
-    p <|.. pt
-    p <|.. pe
+left to right direction
+usecase "Reservar vuelo" as rv
+usecase "Elegir asientos" as ea
+    "Cliente VIP" -- ea
+    "Cliente" -- rv
 
 @enduml
