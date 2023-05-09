@@ -1,15 +1,19 @@
 @startuml
 left to right direction
-usecase "Meter dinero" as md
-usecase "Pedir azucar" as pa
-usecase "Pedir producto" as pp
-usecase "Cancelar" as c
-usecase "Devolver dinero" as dd
-    Cliente --md
-    Cliente --pa
-    Cliente --pp
-    Cliente --c
-    dd <.. pp : <<include>>
-    dd <.. c : <<include>>
+usecase "Identificarse" as id
+usecase "Pagar" as pa
+usecase "Elegir mensajero" as em
+usecase "Confirmar" as co
+usecase "Registrarse" as re
+usecase "Pagar con tarjeta" as pt
+usecase "Pagar con transferencia" as ptr
+    "new Actor" -- id
+    "new Actor" -- pa
+    "new Actor" -- em
+    "new Actor" -- co
+    pa <|-- pt
+    pa <|-- ptr
+    id <.. re : <<extend>>
+
 
 @enduml
