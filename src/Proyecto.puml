@@ -1,19 +1,11 @@
 @startuml
 left to right direction
-usecase "Iniciar sesion" as is
-usecase "Recuperar contraseña" as rc
-usecase "Modificar contraseña" as mc
-usecase "Cerrar sesión" as cs
-usecase "Registrar usuario" as ru
-usecase "Instalas programa" as ip
-    Usuario -- is
-    Usuario -- rc
-    Usuario -- mc
-    Usuario -- cs
-    Administrador -- ru
-    Administrador -- ip
-    Usuario <|-- Administrador
+usecase "Registrar entrada" as re
+usecase "Tomar huellas" as th
 
-
+    Ciudadano -- re
+    "Ciudadano extranjero" -- th
+    Ciudadano <|-- "Ciudadano extranjero"
+    re <.. th : <<extend>>
 
 @enduml
