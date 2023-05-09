@@ -1,15 +1,11 @@
 @startuml
 left to right direction
 actor "Cliente" as cl
-actor "Restaurante" as res
-rectangle {
-    usecase "Mostrar menú" as mm
-    usecase "Pedir comida" as pc
-}
-usecase "Entregar Comida" as ec
-    cl -- mm
-    cl -- pc
-    res -- mm
-    res -- ec
-
+usecase "Confirmar pedido" as cop
+usecase "Cancelar pedido" as cap
+usecase "Devolver cambio" as dc
+    cl -- cop
+    cl -- cap
+    dc .. cop : <<include>>
+    dc .. cap : <<include>>
 @enduml
