@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ecac339-6b7d-4449-84e5-4c23adf8eb2b" name="Changes" comment="Ejemplo: La máquina de café">
+    <list default="true" id="6ecac339-6b7d-4449-84e5-4c23adf8eb2b" name="Changes" comment="Ejemplo: Tienda en Internet">
       <change beforePath="$PROJECT_DIR$/src/Proyecto.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proyecto.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683616693594</updated>
-      <workItem from="1683616697432" duration="4952000" />
+      <workItem from="1683616697432" duration="5338000" />
     </task>
     <task id="LOCAL-00001" summary="Inicio del proyecto">
       <created>1683617497282</created>
@@ -110,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683621298633</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ejemplo: Tienda en Internet">
+      <created>1683621717450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683621717450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +169,7 @@
     <MESSAGE value="Elementos del diagrama. Generalización" />
     <MESSAGE value="Elementos del diagrama. Generalización con actores" />
     <MESSAGE value="Ejemplo: La máquina de café" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo: La máquina de café" />
+    <MESSAGE value="Ejemplo: Tienda en Internet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejemplo: Tienda en Internet" />
   </component>
 </project>

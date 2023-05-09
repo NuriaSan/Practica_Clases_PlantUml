@@ -1,19 +1,19 @@
 @startuml
 left to right direction
-usecase "Identificarse" as id
-usecase "Pagar" as pa
-usecase "Elegir mensajero" as em
-usecase "Confirmar" as co
-usecase "Registrarse" as re
-usecase "Pagar con tarjeta" as pt
-usecase "Pagar con transferencia" as ptr
-    "new Actor" -- id
-    "new Actor" -- pa
-    "new Actor" -- em
-    "new Actor" -- co
-    pa <|-- pt
-    pa <|-- ptr
-    id <.. re : <<extend>>
+usecase "Iniciar sesion" as is
+usecase "Recuperar contraseña" as rc
+usecase "Modificar contraseña" as mc
+usecase "Cerrar sesión" as cs
+usecase "Registrar usuario" as ru
+usecase "Instalas programa" as ip
+    Usuario -- is
+    Usuario -- rc
+    Usuario -- mc
+    Usuario -- cs
+    Administrador -- ru
+    Administrador -- ip
+    Usuario <|-- Administrador
+
 
 
 @enduml
