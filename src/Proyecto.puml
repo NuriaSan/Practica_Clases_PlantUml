@@ -1,11 +1,21 @@
 @startuml
-left to right direction
-usecase "Registrar entrada" as re
-usecase "Tomar huellas" as th
+skinparam usecase {
+BackgroundColor Aquamarine
+BorderColor Teal
+}
+usecase sd as "Sacar dinero
+--
++ solicitud hecha"
 
-    Ciudadano -- re
-    "Ciudadano extranjero" -- th
-    Ciudadano <|-- "Ciudadano extranjero"
-    re <.. th : <<extend>>
+usecase "Retener tarjeta" as rt
+    sd <.. rt : <<Extend>>
+
+note "Description\n--\ncondición:\n{ Historia sospechosa }\npunto de extensión\nsolicitud hecha" as n1
+    sd .. n1
+    n1 .. rt
+
+
+
+
 
 @enduml
